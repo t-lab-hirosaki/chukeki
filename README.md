@@ -39,28 +39,17 @@ Wifiとかを設定
 
 
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+git clone https://github.com/t-lab-hirosaki/chukeki.git
+cd chukeki
+
 ```
  
 # Note
  
-注意点などがあれば書く
- 
+注意点とかないよ 
 # Author
  
-作成情報を列挙する
- 
+長内海斗 
 * 作成者
 * 所属
 * E-mail
- 
-# License
-ライセンスを明示する
- 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
