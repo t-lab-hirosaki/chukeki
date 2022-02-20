@@ -1,0 +1,61 @@
+# ノード種別設定[Coordinaor,EndDevice]
+node=1
+
+# 帯域幅設定[3. 62.5kHz,4. 125kHz,5. 250kHz,6. 500kHz]
+bw=3
+
+# 拡散率設定[7-12]
+sf=12
+
+# 無線チャンネル番号設定[bw>=125kHz(1-15),250kHz(1-7),500kHz(1-5)]
+channel=8
+
+# PANネットワークアドレス設定[0x0000-0xFFFE]
+panid=6218
+
+# 自ノードネットワークアドレス設定(0x0000-0xFFFE)
+ownid=7778
+
+# 送信先ノードネットワークアドレス設定(0x0000-0xFFFE)
+dstid=0
+
+# Acknowledge使用設定[ON, OFF]
+ack=1
+
+# リトライ回数設定[0-10]
+#retry=3
+
+# 転送モード設定[Payload, Frame]
+#transmode=1
+
+# 相手ノードネットワークアドレス[ON, OFF]
+rcvid=1
+
+# 受信電波強度(RSSI)付与設定[ON, OFF]
+rssi=1
+
+# 動作モード設定[Configuration, Operation]
+#operation=1
+
+# UART転送速度設定
+#baudrate=5
+
+# スリープモード設定[No Sleep,Timer Wakeup,INT Wakeup]
+#sleep=1
+
+# スリープタイマー時間設定[1-864000]
+#slepptune=50
+
+# 送信出力設定[-4-13]
+#power=13
+
+# ペイロードデータフォーマット設定[ASCII, BINARY]
+#format=ASCII
+
+# 自動送信間隔設定[0-86400]
+#sendtime=0
+
+# 自動送信データ設定
+
+# AES128暗号化キー[00000000000000000000000000000000-FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF]
+#aeskey=00000000000000000000000000000000
