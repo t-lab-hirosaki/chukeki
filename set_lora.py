@@ -37,6 +37,8 @@ class set_LoRa():
                 return True
             elif 'NG' in self.printable(line):
                 return False
+            elif 'Mode' in self.printable(line):
+                return False
 
     def setMode(self):
         self.lr.s.reset_input_buffer()
